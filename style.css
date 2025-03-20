@@ -345,6 +345,7 @@ body::-webkit-scrollbar-track {
     gap: 10px; /* Отступ между кнопками */
     padding: 6px;
     padding-right: 30px;
+    z-index: 1000;
 }
 
 .header-button {
