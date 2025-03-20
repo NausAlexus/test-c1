@@ -378,15 +378,66 @@ body::-webkit-scrollbar-track {
 
 
 
-.qqq {
-    height: 1200px;
+
+
+
+
+
+
+.slider-header {
+    top: -100px;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
 }
 
+.slider-header-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
 
+.slide-header {
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
 
+.slide-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+.slide-header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(183, 255, 248);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
 
+.slide-header {
+    display: none; /* Hide all slides by default */
+}
 
+.active-header {
+    display: block; /* Show the active slide */
+}
+@media (max-width:500px) {
+    .slide-header-text{
+        width: 90%;
+    }
+}
 
 
 
