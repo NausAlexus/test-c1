@@ -370,20 +370,6 @@ body::-webkit-scrollbar-track {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .slider-header {
     top: -100px;
     position: relative;
@@ -420,10 +406,13 @@ body::-webkit-scrollbar-track {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(183, 255, 248);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
     border-radius: 10px;
+    font-size: 48px;
+    font-weight: 900;
+    background: rgba(4, 4, 4, 0.405);
 }
 
 .slide-header {
