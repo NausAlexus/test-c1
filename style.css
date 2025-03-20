@@ -474,6 +474,17 @@ body::-webkit-scrollbar-track {
     margin-bottom: 20px;
   }
 
+  @media (max-width: 1200px) {
+    .tai88-image-1,
+  .tai88-image-2,
+  .tai88-image-3,
+  .tai88-image-4,
+  .tai88-image-5{
+    height: auto;
+  }
+    
+  }
+
   /* Стили для первой секции */
   .tai88-section-1 {
     background: linear-gradient(135deg, #1a1a1a, #333333);
@@ -802,6 +813,7 @@ body::-webkit-scrollbar-track {
   border-radius: 8px;
   transition: 0.3s;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 .jackpot-button:hover {
   background: #ff6126;
@@ -859,6 +871,7 @@ body::-webkit-scrollbar-track {
   border-radius: 8px;
   transition: 0.3s;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .board-game-button:hover {
@@ -960,6 +973,7 @@ body::-webkit-scrollbar-track {
   border-radius: 8px;
   transition: 0.3s;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .lottery-button:hover {
@@ -1012,6 +1026,7 @@ body::-webkit-scrollbar-track {
   border-radius: 8px;
   transition: 0.3s;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .fish-shooting-button:hover {
@@ -1064,6 +1079,7 @@ body::-webkit-scrollbar-track {
   border-radius: 8px;
   transition: 0.3s;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .casino-button:hover {
@@ -1125,6 +1141,14 @@ body::-webkit-scrollbar-track {
 .login-button:hover {
   background: #ff6126;
   color: #fff;
+}
+
+@media (max-width:426px) {
+  [class^="tai88-button"]{
+    padding: 15px 15px;
+
+  }
+  
 }
 
 
