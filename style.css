@@ -761,6 +761,52 @@ body::-webkit-scrollbar-track {
     width: 100%;
 }
 
+.jackpot-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #022a5e, #a40e03);
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+}
+.jackpot-container, .jackpot-info {
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+.jackpot-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.jackpot-subtitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.jackpot-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.jackpot-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #fff;
+  color: #ff6126;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.jackpot-button:hover {
+  background: #ff6126;
+  color: #fff;
+}
+
 
 
 
