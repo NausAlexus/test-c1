@@ -482,10 +482,8 @@ body::-webkit-scrollbar-track {
   .tai88-image-4,
   .tai88-image-5 {
     width: 100%;
-    max-width: 1300px;
 
     height: auto;
-    height: 600px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
@@ -503,14 +501,13 @@ body::-webkit-scrollbar-track {
 
   /* Стили для первой секции */
   .tai88-section-1 {
-    background: linear-gradient(135deg, #1a1a1a, #333333);
-    color: #ffffff;
+    background: rgba(255, 255, 255, 0.062);
+        color: #ffffff;
     padding: 40px 20px;
     text-align: center;
     border-radius: 15px;
     max-width: 90%;
     margin: 20px auto;
-    font-family: 'Roboto', sans-serif;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   }
 
@@ -555,14 +552,13 @@ body::-webkit-scrollbar-track {
 
   /* Стили для второй секции */
   .tai88-section-2 {
-    background: linear-gradient(135deg, #003366, #0066cc);
-    color: #ffffff;
+    background: rgba(255, 255, 255, 0.062);
+        color: #ffffff;
     padding: 40px 20px;
     text-align: center;
     border-radius: 15px;
     max-width: 90%;
     margin: 20px auto;
-    font-family: 'Open Sans', sans-serif;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   }
 
@@ -607,14 +603,13 @@ body::-webkit-scrollbar-track {
 
   /* Стили для третьей секции */
   .tai88-section-3 {
-    background: linear-gradient(135deg, #4b0082, #800080);
-    color: #ffffff;
+    background: rgba(255, 255, 255, 0.062);
+        color: #ffffff;
     padding: 40px 20px;
     text-align: center;
     border-radius: 15px;
     max-width: 90%;
     margin: 20px auto;
-    font-family: 'Poppins', sans-serif;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   }
 
@@ -659,14 +654,13 @@ body::-webkit-scrollbar-track {
 
   /* Стили для четвертой секции */
   .tai88-section-4 {
-    background: linear-gradient(135deg, #006400, #228b22);
-    color: #ffffff;
+    background: rgba(255, 255, 255, 0.062);
+        color: #ffffff;
     padding: 40px 20px;
     text-align: center;
     border-radius: 15px;
     max-width: 90%;
     margin: 20px auto;
-    font-family: 'Merriweather', serif;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   }
 
@@ -711,14 +705,13 @@ body::-webkit-scrollbar-track {
 
   /* Стили для пятой секции */
   .tai88-section-5 {
-    background: linear-gradient(135deg, #8b0000, #b22222);
-    color: #ffffff;
+    background: rgba(255, 255, 255, 0.062);
+        color: #ffffff;
     padding: 40px 20px;
     text-align: center;
     border-radius: 15px;
     max-width: 90%;
     margin: 20px auto;
-    font-family: 'Lato', sans-serif;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   }
 
@@ -794,8 +787,8 @@ body::-webkit-scrollbar-track {
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
-  background: linear-gradient(135deg, #022a5e, #a40e03);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.062);
+    color: #fff;
   text-align: center;
   border-radius: 20px;
   margin: 20px;
@@ -846,8 +839,8 @@ body::-webkit-scrollbar-track {
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
-  background: linear-gradient(135deg, #022a5e, #0f1cda);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.062);
+    color: #fff;
   text-align: center;
   border-radius: 20px;
   margin: 20px;
@@ -903,7 +896,7 @@ body::-webkit-scrollbar-track {
   padding: 40px 20px;
   color: #fff;
   text-align: center;
-  background: linear-gradient(135deg, #022a5e, #53720e);
+  background: rgba(255, 255, 255, 0.062);
 
   border-radius: 20px;
 
@@ -954,7 +947,7 @@ body::-webkit-scrollbar-track {
   color: #fff;
   text-align: center;
 
-  background: linear-gradient(135deg, #022a5e, #115e68);
+background: rgba(255, 255, 255, 0.062);
 
   border-radius: 20px;
 
@@ -1006,8 +999,7 @@ body::-webkit-scrollbar-track {
   color: #fff;
   text-align: center;
 
-  background: linear-gradient(135deg, #022a5e, #111b68);
-
+  background: rgba(255, 255, 255, 0.062);
   border-radius: 20px;
 
   margin: 20px;
@@ -1060,8 +1052,7 @@ body::-webkit-scrollbar-track {
   color: #fff;
   text-align: center;
 
-  background: linear-gradient(135deg, #022a5e, #521168);
-
+  background: rgba(255, 255, 255, 0.062);
   border-radius: 20px;
 
   margin: 20px;
@@ -1111,8 +1102,7 @@ body::-webkit-scrollbar-track {
   padding: 40px 20px;
   color: #fff;
   text-align: center;
-  background: linear-gradient(135deg, #022a5e, #681111);
-
+  background: rgba(255, 255, 255, 0.062);
   border-radius: 20px;
 
   margin: 20px;
@@ -1167,10 +1157,42 @@ body::-webkit-scrollbar-track {
   
 }
 
+.nav-button {
+  background: none; /* Убираем фон */
+  border: none; /* Убираем рамку */
+  padding: 0; /* Убираем отступы */
+  cursor: pointer; /* Изменяем курсор на указатель */
+}
+
+.nav-button:hover .nav-link {
+  text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+[class*="section"] {
+  padding: 60px;
+
+}
+@media (max-width:1000px) {
+  [class*="section"] {
+    padding: 30px;
+  
+  }
+  
+}
+
+.btnLogo{
+  background-color: orangered;  padding: 5px 8px;
+  border-radius: 7px;
+  transition: all 0.1s ease-in-out;
+  text-decoration: none;
+  list-style: none;
+}
+
 
 .link-hiden {
   display: none;
 }
+
 
 
 
@@ -1183,5 +1205,11 @@ body::-webkit-scrollbar-track {
     }
     .header-btn-app:hover {
         background-color: rgb(201, 54, 0);
+    }
+    .btnLogo:hover{
+      background-color: rgb(201, 54, 0);
+      
+
+
     }
 }
