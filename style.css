@@ -1144,7 +1144,9 @@ body::-webkit-scrollbar-track {
 }
 
 
-
+.link-hiden {
+  display: none;
+}
 
 
 
