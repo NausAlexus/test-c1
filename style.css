@@ -100,7 +100,7 @@ body::-webkit-scrollbar-track {
     font-weight: 100;
     text-decoration: none;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
     transition: color 0.3s ease;
     text-transform: uppercase;
 }
@@ -131,7 +131,7 @@ body::-webkit-scrollbar-track {
 .burger-line {
     width: 30px;
     height: 4px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     margin: 3px 0;
     transition: 0.3s;
 }
@@ -187,9 +187,9 @@ body::-webkit-scrollbar-track {
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 @media (max-width: 768px) {
@@ -203,12 +203,28 @@ body::-webkit-scrollbar-track {
 
 .nav-list {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     list-style: none;
 }
 
 .nav-item {
     position: relative;
+}
+
+
+@media (max-width: 1050px) {
+  .nav-list {
+    gap: 4px;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 730px) {
@@ -222,7 +238,7 @@ body::-webkit-scrollbar-track {
         right: -100%; /* Скрываем меню за пределами экрана */
         width: 100%; /* Ширина меню на весь экран */
         height: 100%; /* Высота на весь экран */
-        background-color: #ffffff; /* Цвет фона меню */
+        background-color: #000769; /* Цвет фона меню */
         transition: right 0.3s ease; /* Анимация появления */
         z-index: 999; /* Указываем z-index */
         display: flex;
@@ -238,7 +254,7 @@ body::-webkit-scrollbar-track {
 
     /* Стилизация навигационных ссылок в меню */
     .nav-link {
-        color: #2b8eff; /* Цвет текста для навигации */
+        color: #479dff; /* Цвет текста для навигации */
         padding: 20px; /* Отступы вокруг пунктов меню */
         border-bottom: 1px solid #666; /* Разделители между пунктами */
     }
@@ -1152,7 +1168,9 @@ body::-webkit-scrollbar-track {
 }
 
 
-
+.link-hiden {
+  display: none;
+}
 
 
 
