@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8" />
@@ -14,12 +14,19 @@
     <link rel="icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
 
+    <script src="burgerMenu.js" defer></script>
+
 </head>
 
 <body>
+    <div class="header-button-container">
+        <a href="#register" class="header-button header-left-button">ĐĂNG KÝ</a>
+        <span class="header-separator">|</span>
+        <a href="#login" class="header-button header-right-button">ĐĂNG NHẬP</a>
+    </div>
     <header class="header">
         <nav class="navigation">
-            <a class="header-link" href="/"><img src="" alt="logo"></a>
+            <a class="header-link" href="/"><img class="logo-img" src="img/logo tai88.png" alt="logo"></a>
             <div class="burger-menu" id="burgerMenu">
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>
@@ -27,22 +34,25 @@
             </div>
             <ul class="nav-list" id="navList">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/">Trang chủ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about/">About</a>
+                    <a class="nav-link" href="/">NỔ HŨ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="app/">App</a>
+                    <a class="nav-link" href="about/">TRÒ CHƠI CỜ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services/">Services</a>
+                    <a class="nav-link" href="app/">THỂ THAO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="faq/">FAQ</a>
+                    <a class="nav-link" href="services/">XỐ SỐ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contacts/">Contacts</a>
+                    <a class="nav-link" href="faq/">SÒNG BÀI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts/">BẮN CÁ</a>
                 </li>
             </ul>
         </nav>
@@ -53,25 +63,7 @@
     </main>
 
     <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-details">
-                <a class="footer-brand" href="/">CleanWave</a>
-                <a class="footer-location" href="https://maps.app.goo.gl/aVaoywQuf5CmmajKA" target="_blank">
-                    <i class="fas fa-map-marker-alt"></i>HWMP+C8W, Khera Dabar, Delhi, 110073, India
-                </a>
-                <a class="footer-phone" href="tel:+912527384426">
-                    <i class="fas fa-phone"></i> +912527384426
-                </a>
-                <a class="footer-email" href="mailto:contact@CleanWave.com">
-                    <i class="fas fa-envelope"></i> contact@CleanWave.com
-                </a>
-            </div>
-            <div class="footer-links">
-                <a href="privacy-policy/">Privacy Policy</a>
-                <a href="terms-conditions/">Terms And Conditions</a>
-            </div>
-        </div>
-        <p class="footer-rights">&copy; 2025 CleanWave. All rights reserved.</p>
+        <p class="footer-rights">Copyright &copy; TAI88 All rights reserved.</p>
     </footer>
 
 </body>
