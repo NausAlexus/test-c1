@@ -410,9 +410,19 @@ body::-webkit-scrollbar-track {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 900;
     background: rgba(4, 4, 4, 0.405);
+}
+
+.header-btn-app {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
 }
 
 .slide-header {
@@ -421,6 +431,26 @@ body::-webkit-scrollbar-track {
 
 .active-header {
     display: block; /* Show the active slide */
+}
+@media (max-width:950px) {
+    .header-btn-app {
+        font-size: 14px;
+    }
+    .slide-header-text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:768px) {
+    .header-btn-app {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .header-btn-app {
+        font-size: 8px;
+    }
 }
 @media (max-width:500px) {
     .slide-header-text{
@@ -440,5 +470,8 @@ body::-webkit-scrollbar-track {
 @media (min-width: 1025px) {
     .nav-link:hover {
         color: silver;
+    }
+    .header-btn-app:hover {
+        background-color: rgb(201, 54, 0);
     }
 }
