@@ -749,7 +749,7 @@ body::-webkit-scrollbar-track {
   }
 
   .marquee-container {
-    background: #ff0000;
+    background: #ff00005a;
     color: #fff;
     padding: 10px 0;
     font-size: 16px;
