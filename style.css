@@ -1072,6 +1072,61 @@ body::-webkit-scrollbar-track {
 }
 
 
+.login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(135deg, #022a5e, #681111);
+
+  border-radius: 20px;
+
+  margin: 20px;
+
+}
+
+.login-container {
+  margin-bottom: 20px;
+}
+
+.login-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.login-subtitle {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.login-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.login-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #fff;
+  color: #ff6126;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px;
+  transition: 0.3s;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background: #ff6126;
+  color: #fff;
+}
+
 
 
 
