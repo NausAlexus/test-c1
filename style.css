@@ -466,9 +466,10 @@ body::-webkit-scrollbar-track {
   .tai88-image-4,
   .tai88-image-5 {
     width: 100%;
-    max-width: 800px;
+    max-width: 1300px;
 
     height: auto;
+    height: 600px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
