@@ -24,7 +24,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin: 0;
-    background-color: #000740;
+    background-color: #000000;
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-track {
 .header {
     width: 100%;
     padding: 2px 20px;
-    background-color: #1c006b;
+    background-color: #007191;
     transition: top 0.3s;
     z-index: 1000;
     max-width: 1920px;
@@ -238,7 +238,7 @@ body::-webkit-scrollbar-track {
         right: -100%; /* Скрываем меню за пределами экрана */
         width: 100%; /* Ширина меню на весь экран */
         height: 100%; /* Высота на весь экран */
-        background-color: #000769; /* Цвет фона меню */
+        background-color: #007191;
         transition: right 0.3s ease; /* Анимация появления */
         z-index: 999; /* Указываем z-index */
         display: flex;
@@ -256,14 +256,14 @@ body::-webkit-scrollbar-track {
     .nav-link {
         color: #ffffff; /* Цвет текста для навигации */
         padding: 20px; /* Отступы вокруг пунктов меню */
-        border-bottom: 1px solid #666; /* Разделители между пунктами */
+        border-bottom: 1px solid black; /* Разделители между пунктами */
     }
 }
 
 @media (max-width:426px) {
     
     .burger-line{
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
     }
     .main-content{
         margin-top: 0;
@@ -282,7 +282,7 @@ body::-webkit-scrollbar-track {
 }
 
 .footer {
-    background-color: #2b00a3; /* Светлый фон */
+  background-color: #007191;
     padding: 10px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Тень для глубины */
     margin-top: auto;
@@ -534,8 +534,8 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-1 {
-    background-color: #ffcc00;
-    color: black;
+    background: #007191;
+    color: white;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
@@ -546,7 +546,7 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-1:hover {
-    background-color: #e6b800;
+    background: #00566e;
     transform: scale(1.05);
   }
 
@@ -585,8 +585,8 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-2 {
-    background-color: #ffffff;
-    color: black;
+    background: #007191;
+    color: white;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
@@ -597,7 +597,7 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-2:hover {
-    background-color: #f0f0f0;
+    background: #00566e;
     transform: translateY(-5px);
   }
 
@@ -636,8 +636,8 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-3 {
-    background-color: #ffd700;
-    color: black;
+    background: #007191;
+    color: white;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
@@ -648,7 +648,7 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-3:hover {
-    background-color: #e6c200;
+    background: #005067;
     transform: translateY(-5px);
   }
 
@@ -687,8 +687,8 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-4 {
-    background-color: #ffd700;
-    color: black;
+    background: #007191;
+    color: white;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
@@ -699,7 +699,7 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-4:hover {
-    background-color: #e6c200;
+    background: #004d62;
     transform: translateY(-5px);
   }
 
@@ -738,8 +738,8 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-5 {
-    background-color: #ffd700; /* Золотой фон */
-    color: black;
+    background: #007191;
+    color: white;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
@@ -750,7 +750,7 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-5:hover {
-    background-color: #e6c200; /* Темнее золотой */
+    background: #004558;
     transform: translateY(-5px); /* Подъем кнопки */
   }
 
@@ -815,8 +815,8 @@ body::-webkit-scrollbar-track {
 .jackpot-button {
   display: inline-block;
   padding: 12px 24px;
-  background: #fff;
-  color: #ff6126;
+  background: #007191;
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 8px;
@@ -825,8 +825,8 @@ body::-webkit-scrollbar-track {
   margin-bottom: 20px;
 }
 .jackpot-button:hover {
-  background: #ff6126;
-  color: #fff;
+  background: #005b75;
+  color: white;
 }
 
 
@@ -873,8 +873,8 @@ body::-webkit-scrollbar-track {
 .board-game-button {
   display: inline-block;
   padding: 12px 24px;
-  background: #fff;
-  color: #ff6126;
+  background: #007191;
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 8px;
@@ -884,7 +884,7 @@ body::-webkit-scrollbar-track {
 }
 
 .board-game-button:hover {
-  background: #ff6126;
+  background: #005b75;
   color: #fff;
 }
 
@@ -924,8 +924,8 @@ body::-webkit-scrollbar-track {
 .sports-betting-button {
   display: inline-block;
   padding: 12px 24px;
-  background: #fff;
-  color: #ff6126;
+  background: #007191;
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 8px;
@@ -934,7 +934,7 @@ body::-webkit-scrollbar-track {
 }
 
 .sports-betting-button:hover {
-  background: #ff6126;
+  background: #005b75;
   color: #fff;
 }
 
@@ -975,8 +975,8 @@ background: rgba(255, 255, 255, 0.062);
 .lottery-button {
   display: inline-block;
   padding: 12px 24px;
-  background: #fff;
-  color: #ff6126;
+  background: #007191;
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 8px;
@@ -986,7 +986,7 @@ background: rgba(255, 255, 255, 0.062);
 }
 
 .lottery-button:hover {
-  background: #ff6126;
+  background: #005b75;
   color: #fff;
 }
 
@@ -1027,8 +1027,8 @@ background: rgba(255, 255, 255, 0.062);
 .fish-shooting-button {
   display: inline-block;
   padding: 12px 24px;
-  background: #fff;
-  color: #ff6126;
+  background: #007191;
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 8px;
@@ -1038,7 +1038,7 @@ background: rgba(255, 255, 255, 0.062);
 }
 
 .fish-shooting-button:hover {
-  background: #ff6126;
+  background: #005b75;
   color: #fff;
 }
 
@@ -1079,8 +1079,8 @@ background: rgba(255, 255, 255, 0.062);
 .casino-button {
   display: inline-block;
   padding: 12px 24px;
-  background: #fff;
-  color: #ff6126;
+  background: #007191;
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 8px;
@@ -1090,7 +1090,7 @@ background: rgba(255, 255, 255, 0.062);
 }
 
 .casino-button:hover {
-  background: #ff6126;
+  background: #005b75;
   color: #fff;
 }
 
@@ -1134,8 +1134,8 @@ background: rgba(255, 255, 255, 0.062);
 .login-button {
   display: inline-block;
   padding: 12px 24px;
-  background: #fff;
-  color: #ff6126;
+  background: #007191;
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 8px;
@@ -1145,8 +1145,8 @@ background: rgba(255, 255, 255, 0.062);
 }
 
 .login-button:hover {
-  background: #ff6126;
-  color: #fff;
+  background: #005b75;
+  color: white;
 }
 
 @media (max-width:426px) {
@@ -1167,7 +1167,7 @@ background: rgba(255, 255, 255, 0.062);
 
 
 [class*="section"] {
-  padding: 60px;
+  padding: 30px;
 
 }
 @media (max-width:1000px) {
