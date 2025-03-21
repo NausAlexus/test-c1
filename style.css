@@ -243,7 +243,7 @@ body::-webkit-scrollbar-track {
         z-index: 999; /* Указываем z-index */
         display: flex;
         flex-direction: column; /* Выравнивание пунктов меню по вертикали */
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
     }
 
@@ -254,7 +254,7 @@ body::-webkit-scrollbar-track {
 
     /* Стилизация навигационных ссылок в меню */
     .nav-link {
-        color: #479dff; /* Цвет текста для навигации */
+        color: #ffffff; /* Цвет текста для навигации */
         padding: 20px; /* Отступы вокруг пунктов меню */
         border-bottom: 1px solid #666; /* Разделители между пунктами */
     }
@@ -535,7 +535,7 @@ body::-webkit-scrollbar-track {
 
   .tai88-button-1 {
     background-color: #ffcc00;
-    color: #1a1a1a;
+    color: black;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
@@ -586,7 +586,7 @@ body::-webkit-scrollbar-track {
 
   .tai88-button-2 {
     background-color: #ffffff;
-    color: #003366;
+    color: black;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
@@ -637,7 +637,7 @@ body::-webkit-scrollbar-track {
 
   .tai88-button-3 {
     background-color: #ffd700;
-    color: #4b0082;
+    color: black;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
@@ -668,7 +668,7 @@ body::-webkit-scrollbar-track {
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 15px;
-    color: #ffa500;
+    color: #ffd700;
     text-transform: uppercase;
   }
 
@@ -676,7 +676,7 @@ body::-webkit-scrollbar-track {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #ffa500;
+    color: #ffd700;
   }
 
   .tai88-description-4 {
@@ -687,8 +687,8 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-4 {
-    background-color: #ffa500;
-    color: #006400;
+    background-color: #ffd700;
+    color: black;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
@@ -699,7 +699,7 @@ body::-webkit-scrollbar-track {
   }
 
   .tai88-button-4:hover {
-    background-color: #e69500;
+    background-color: #e6c200;
     transform: translateY(-5px);
   }
 
@@ -739,7 +739,7 @@ body::-webkit-scrollbar-track {
 
   .tai88-button-5 {
     background-color: #ffd700; /* Золотой фон */
-    color: #8b0000; /* Темно-красный текст */
+    color: black;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
