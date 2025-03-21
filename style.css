@@ -1164,9 +1164,7 @@ background: rgba(255, 255, 255, 0.062);
   cursor: pointer; /* Изменяем курсор на указатель */
 }
 
-.nav-button:hover .nav-link {
-  text-decoration: underline; /* Подчеркивание при наведении */
-}
+
 
 [class*="section"] {
   padding: 60px;
@@ -1181,10 +1179,10 @@ background: rgba(255, 255, 255, 0.062);
 }
 
 .btnLogo{
-  background-color: orangered;  padding: 5px 8px;
+  background-color: orangered;  padding: 10px 15px;
   border-radius: 7px;
   transition: all 0.1s ease-in-out;
-  text-decoration: none;
+  text-decoration: none !important;
   list-style: none;
 }
 
@@ -1208,8 +1206,8 @@ background: rgba(255, 255, 255, 0.062);
     }
     .btnLogo:hover{
       background-color: rgb(201, 54, 0);
-      
-
-
+    }
+    .nav-button:hover .nav-link {
+      text-decoration: underline; /* Подчеркивание при наведении */
     }
 }
